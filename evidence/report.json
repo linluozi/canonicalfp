@@ -1,0 +1,92 @@
+{
+  "generated_by": "evidence/run.py",
+  "environment": {
+    "python": "3.12.3",
+    "implementation": "CPython",
+    "platform": "Linux-6.8.0-124-generic-x86_64-with-glibc2.39",
+    "cpu": "AMD EPYC 7K62 48-Core Processor",
+    "mem_total_kb": 3812564
+  },
+  "experiments": {
+    "dict_order": {
+      "permutations": 500,
+      "keys": 40,
+      "unique_fingerprints": 1
+    },
+    "pickle_order": {
+      "permutations": 500,
+      "unique_pickle_digests": 500
+    },
+    "cross_process": {
+      "pythonhashseed_values": 12,
+      "unique_canonicalfp_digests": 1,
+      "unique_builtin_frozenset_hashes": 12
+    },
+    "type_matrix": {
+      "values": [
+        "int",
+        "float",
+        "bool",
+        "decimal",
+        "fraction",
+        "str",
+        "bytes",
+        "complex"
+      ],
+      "unique_fingerprints": 8,
+      "digests": {
+        "int": "ad38179201a53985a304e35e00b4b3cdc0edf3474830fd72848fc08598b127fb",
+        "float": "d64acd14161a70c4099bd0451fa44e0895d01bc9abec708d273f7ef9c40dede7",
+        "bool": "25dfd29c09617dcc9852281c030e5b3037a338a4712a42a21c907f259c6412a0",
+        "decimal": "398093fa2c183e957f52e0b2d9eceb30238069ca1885ef8ee764e0310a2b777a",
+        "fraction": "c9ceb3127283077671f5570615a18b457b5d4d08920dc1e46c5586e08a4fa785",
+        "str": "44c81e9e929cb097cee3696429b8c285c74b2c1dfeac23a61bf906ce5e3b6d6c",
+        "bytes": "1569760f44eff898930246665f74e09fbf8e4fa4a7cc95ae9fc1c43ab3b57235",
+        "complex": "e4799663d4e01c77a88199792dcc31ba8abafb47433f8fc59f16321fcbf8fbd5"
+      }
+    },
+    "mutations": {
+      "cases": 500,
+      "exercised": 500,
+      "detected": 500
+    },
+    "json_limits": {
+      "json_set": "TypeError",
+      "json_decimal": "TypeError",
+      "json_nan_output": "{\"x\": NaN}",
+      "json_nan_is_rfc8259": false,
+      "canonicalfp_set_ok": true
+    },
+    "timing": {
+      "structure": "2000 nested dicts (3 sets/lists each)",
+      "rounds": 20,
+      "median_ms": 54.459,
+      "min_ms": 53.363,
+      "max_ms": 56.534,
+      "raw_ms": [
+        53.363,
+        53.648,
+        53.667,
+        53.91,
+        54.029,
+        54.2,
+        54.21,
+        54.223,
+        54.311,
+        54.343,
+        54.459,
+        54.56,
+        54.587,
+        54.626,
+        54.696,
+        54.739,
+        54.859,
+        55.298,
+        55.328,
+        56.534
+      ],
+      "encoded_bytes": 521256
+    }
+  },
+  "deterministic_sha256": "b3bee0edc314741750ff63bf2b94ab134b0652316f8cf28655dd4f2515808cf4"
+}
